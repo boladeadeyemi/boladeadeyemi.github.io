@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg1__reviewpage{
+    display:flex;
+    flex-direction: column;
+    min-width: 90%;
+    object-fit: contain;
+}
+
+.container__reviewpage{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    position: relative;
+    /* background-color: #171717; */
+}
+
+.center__reviewpage{
+    position: relative;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.85em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0.5em 15em;
+}
+
+.pages__reviewpage{
+    padding: 0.5em 1.0em;
+    cursor: pointer;
+}
+
+.left__reviewpage{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.left__reviewpage img{
+    object-fit: contain;
+    width: 70%;
+}
+
+.lefthand__reviewpage{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    padding: 0.5em 0.5em;
+}
+
+.cart__reviewpage {
+    width: 100%;
+
+}
+
+.cart__reviewpage img{
+    width: 60%;
+}
+
+.maleavatar__reviewpage{
+    width: 100%;
+}
+
+.maleavatar__reviewpage img{
+    width: 60%;
+}
+
+.righthand__reviewpage{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    padding: 0.5em 0.5em;
+}
+
+
+.find__reviewpage{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    height: 7em;
+    letter-spacing: 0.09em;
+}
+
+.find__reviewpage h1{
+    color: #000000;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.ring6__reviewpage{
+    position: absolute;
+    margin-top:3%;
+    max-width: 1em;
+    margin-left: 34em;
+}
+
+.ring6__reviewpage img{
+    width: 12em;
+}
+
+/*Cart*/
+/* .Main__reviewpage {
+    font-family: 'Inter';
+    background-color: #171717;
+    border-radius: 2em;
+    justify-content: center;
+    width: 90%;
+} */
+
+.cart2__reviewpage{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto; 
+    background-color: #171717;  
+    border-radius: 1.5em;
+}
+
+.cartouter__reviewpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171717;
+    /* border-radius: 2em 2em 0em 0em; */
+}
+
+
+.leftDiv__reviewpage{
+    max-width: 50%;
+    text-align: left;
+    padding: 3em 3em 3em 3em;
+    display: inline-block;
+}
+.leftDiv__reviewpage img{
+    /* position: absolute; */
+    max-width: 100%;
+    float: left;
+    width: 100%;
+    height: 100%;
+    left: 90px;
+    top:700px;
+    /* height: 70%; */
+    
+}
+
+
+/* .leftDiv__reviewpage1{
+    max-width: 50%;
+    text-align: left;
+    padding: 3em 3em 3em 3em;
+    display: inline-block;
+}
+.leftDiv__reviewpage1 img{
+    max-width: 100%;
+    float: left;
+    width: 70%;
+    height: 100%;
+    left: 100px;
+    top:700px;
+    
+}
+
+
+.leftDiv__reviewpage2{
+    max-width: 50%;
+    text-align: left;
+    padding: 3em 3em 3em 3em;
+    display: inline-block;
+}
+.leftDiv__reviewpage2 img{
+    max-width: 100%;
+    float: left;
+    width: 70%;
+    height: 100%;
+    left: 100px;
+    top:700px;   
+} */
+
+
+.rightDiv__reviewpage{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.textDiv__reviewpage{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1em;
+    justify-content: flex-start;
+    width: 80%;
+
+}
+
+.itemDes__reviewpage{
+    width: 80%;
+}
+.itemDes__reviewpage p{
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.textDiv__reviewpage p{
+    font-family: 'Inter';
+    font-weight: 500;
+    color: white;
+    font-size: 1.1em;
+}
+
+.textDiv__reviewpage span{
+    color: #FFC107;
+    font-size: 1.5em;
+    padding-left: 5.5em;
+    font-weight: 500;
+    float: right;
+}
+
+.buttons__reviewpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding: 1em;
+}
+
+.buttons__reviewpage button{
+    height: 4em;
+    font-weight: 700;
+}
+.btn1__reviewpage{
+    background-color: #171717;
+    border-color: #FFC107;
+    color: #FFC107;
+    border-radius: 1em;
+    width: 40%;
+}
+
+.D32__reviewpage h3{
+    color: white;
+    font-weight: 700;
+}
+
+.D32__reviewpage {
+    display:flex; 
+    width: 90%;
+    justify-content: flex-end;
+    padding-right: 5em;
+}
+
+
+.proceed__review{
+    width: 90%;
+    background-color: #171717;
+    height: 10em;
+
+}
+.proceed__review button{
+    color: #FFFFFF;
+    background-color: #FFC107;
+    width: 50%;
+    height: 4em;
+    border-radius: 1.5em;
+    cursor: pointer;
+}

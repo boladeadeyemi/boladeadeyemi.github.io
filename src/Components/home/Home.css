@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home{
+    display:flex;
+    flex-direction: column;
+    min-width: 90%;
+    object-fit: contain;
+}
+
+.container__homepage{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    position: relative;
+}
+
+.center__homepage{
+    position: relative;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.85em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0.5em 15em;
+}
+
+.pages__homepage{
+    padding: 0.5em 1.0em;
+    cursor: pointer;
+}
+
+.left__homepage{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.left__homepage img{
+    object-fit: contain;
+    width: 70%;
+}
+
+.lefthand__homepage{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    padding: 0.5em 0.5em;
+}
+
+.cart__homepage {
+    width: 100%;
+
+}
+
+.cart__homepage img{
+    width: 60%;
+}
+
+.maleavatar__homepage{
+    width: 100%;
+}
+
+.maleavatar__homepage img{
+    width: 60%;
+}
+
+.righthand__homepage{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    padding: 0.5em 0.5em;
+}
+
+
+.find__homepage{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    height: 7em;
+    letter-spacing: 0.09em;
+}
+
+.find__homepage h1{
+    color: #000000;
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+.ring__homepage{
+    position: absolute;
+    margin-top: -107%;
+    max-width: 1em;
+    margin-left: 5em;
+}
+
+.ring__homepage img{
+    width: 13em;
+}
+
+.searchinput__homepage{
+    margin-top: 3em;
+    width: 100%;
+  
+}
+.home__search {
+    justify-self: center;
+    align-items: center;
+    border-radius: 2em;
+    width: 40%;
+    padding-bottom: 3em;
+    border: hidden;
+    box-shadow: 0.1em 0.1em 0.4em 0.3em rgba(0,0,0,0.1);
+}
+
+.home__search input{
+    position: relative;
+    font-family: 'Inter';
+    text-align: center;
+    font-weight: 300;
+    align-content: center;
+}
+
+.searchinput__homepage img{
+    position: absolute;
+    margin:1.2em -4em;
+    height: 1.5em;
+}
+
+.cards__homepage{
+    margin-bottom: 20em;
+}
+
+.title__homepage{
+    font-family: 'Inter';
+    color: #ffd24c;
+    text-align: center;
+    margin-top: 3em; 
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+.mainDiv__homepage{
+    position: absolute;
+    left:7.5em;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.innerDiv__homepage{
+    position: relative;
+    justify-content: center;
+    margin-top: 3em ;
+    font-size: 0.8em;
+}
+.innerInner__homepage{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-family: inter, sans-serif;
+    font-weight: lighter;
+    justify-content: center;
+}
+
+.innerDiv__homepage img{
+    width: 90%;
+}
+
+/*Similar Items*/
+.similarItems__homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+  .similarItems__homepage > h1 {
+    top: 36em;
+    position: absolute;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    color: #ffc107;
+  }
+  
+  .similarItemsContainer__homepage {
+    background: #ffffff;
+    box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.15);
+    border-radius: 17px;
+    width: 18em;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+  }
+  
+  .similarItemsContainer__homepage img{
+    width: 100%;
+  }
+  
+  .similarItemsDescription__homepage {
+    padding: 1em;
+  }
+  
+  .similarItemsDescription__homepage > h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #525151;
+    text-align: left;
+  }
+  
+  .similarItemsDescription__homepage > p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+  }
+  
+  .addToCart__homepage > button {
+    border: none;
+    background-color: #ffc107;
+    padding: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .similarItemsDescription__homepage > h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .addToCart__homepage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+  }
+  
+  .addToCart__homepage > h4 {
+    color: #ffc107;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  /*Coursetrending*/
+  .coursetrending__homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+  .coursetrending__homepage > h1 {
+    top: 58em;
+    position: absolute;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    color: #ffc107;
+  }
+  
+  .coursetrendingContainer__homepage {
+    background: #000000;
+    box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.15);
+    border-radius: 1.5em;
+    width: 18em;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+  }
+
+  .coursetrendingContainer__homepage img{
+    width: 100%;
+    height: 90%;
+    border-radius: 1em 1em 0em 0em;
+  }
+  
+  .coursetrendingDescription__homepage {
+    padding: 1em;
+  }
+  
+  .coursetrendingDescription__homepage > h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+  }
+  
+  .coursetrendingDescription__homepage > p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    text-align: left;
+    color: white;
+  }
+  
+  .addToCart2__homepage > button {
+    border: none;
+    background-color: #ffc107;
+    padding: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .coursetrendingDescription__homepage > h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .addToCart2__homepage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+  }
+  
+  .addToCart2__homepage > h4 {
+    color: #ffc107;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
